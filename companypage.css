@@ -1,0 +1,221 @@
+
+{
+  box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f0ece9;
+  
+  margin: 0;
+}
+
+
+.header {
+    width: 90%;
+  padding: 38px;
+  padding: 60px;
+  text-align: center;
+    font-family: 'Fugaz One';font-size: 75px;
+  color: #2b333e;
+    background-image: url("images/landscape.jpg");
+     height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+   
+    
+}
+
+
+.navbar {
+  display: flex;
+  background-color: #2b333e;
+}
+
+
+.navbar a {
+    font font-family: 'Fugaz One'; font-size: 14;
+  color: floralwhite;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+    font-family: 'Fugaz One';font-size: 50px;
+  color: #2b333e;
+    text-decoration: underline;
+    text-decoration: overline;
+}
+h1:hover { 
+  color: #a27788;
+}
+
+p{
+    
+    font-family: 'Noto Sans KR';font-size: 30px;
+  color: #2b333e;
+    text-align: center;
+    
+}
+
+
+.container {
+  display: flex;
+}
+
+.left-half {
+  background-image: url("images/surf.jpg");
+  flex: 1;
+  padding: 1rem;
+    display: flex;
+  flex-wrap: wrap;
+    background-color: #aaa;
+    height: 300px;
+  width: 50%;
+margin-top: 20px;
+    margin-left: 20px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.right-half {
+  background-color: #f0ece9;
+  flex: 1;
+  padding: 1rem;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    height: 300px;
+  width: 50%;
+  margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.left-half2 {
+       background-image: url("images/race.jpg");
+  flex: 1;
+  
+    display: flex;
+  flex-wrap: wrap;
+    background-color: #aaa;
+    height: 300px;
+  width: 50%;
+  
+ margin-top: 20px;
+    margin-left: 20px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.right-half2 {
+  background-color: #f0ece9;
+  flex: 1;
+  
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    height: 300px;
+  width: 50%;
+  
+  margin-top: 20px;
+    margin-left: 20px;
+}
+
+.left-half3 {
+ background-image: url("images/store.jpg");
+  flex: 1;
+  padding: 1rem;
+    display: flex;
+  flex-wrap: wrap;
+    background-color: #aaa;
+    height: 300px;
+  width: 50%;
+  margin-top: 20px;
+    margin-left: 20px;
+
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.right-half3 {
+  background-color: #f0ece9;
+  flex: 1;
+  padding: 1rem;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    height: 300px;
+  width: 50%;
+  margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.left-half4 {
+ background-image: url("images/community.jpg");
+  flex: 1;
+  
+    display: flex;
+  flex-wrap: wrap;
+    background-color: #aaa;
+    height: 300px;
+  width: 50%;
+  
+  margin-top: 20px;
+    margin-left: 20px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.right-half4 {
+  background-color: #f0ece9;
+  flex: 1;
+  
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    height: 300px;
+  width: 50%;
+  
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+@media screen and (max-width: 700px) {
+   .navbar, .container{   
+    flex-direction: column;
+      
+  }
+}
